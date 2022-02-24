@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" style class>
+    <head>
+        <meta charset="utf-8">
+            <title>minbu figure</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <p>Minbu Figure</p>
+
+        <!-- フィールド -->
+        <div class="parent_box">
+            <!-- 1 -->
+            <div class="children_box">
+                <div class="content_children"></div>
+            </div>
+            <!-- 2 -->
+            <div class="children_box">
+                <div class="content_children"></div>
+            </div>
+            <!-- 3 -->
+            <div class="children_box">
+                <div class="content_children"></div>
+            </div>
+        </div>
+
+        <!-- 手札 -->
+
+        <div class="parent_card">
+            <!-- ENTER -->
+            <div class="children_special_card">
+                <div class="content_children_special_card">
+                    <img src="img/ENTER.png" width="60px" height="50px" alt="ho">
+                </div>
+            </div>
+            <!-- シュ -->
+            <div class="children_card">
+                <div class="content_children_card">
+                    <img src="img/shu.jpg" width="30px" height="50px" alt="ho">
+                </div>
+            </div>
+            <!-- ホ -->
+            <div class="children_card">
+                <div class="content_children_card">
+                    <img src="img/ho.jpg" width="30px" height="50px" alt="ho">
+                </div>
+            </div>
+            <!-- ッ -->
+            <div class="children_card">
+                <div class="content_children_card">
+                    <img src="img/tsu.jpg" width="30px" height="50px" alt="ho">
+                </div>
+            </div>
+            <!-- ステ -->
+            <div class="children_card">
+                <div class="content_children_card">
+                    <img src="img/sute.jpg" width="30px" height="50px" alt="ho">
+                </div>
+            </div>
+            <!-- back -->
+            <div class="children_special_card">
+                <div class="content_children_special_card">
+                    <img src="img/back.png" width="60px" height="50px" alt="ho">
+                </div>
+            </div>
+
+
+        </div>
+        
+        <br><br>
+
+        <div id="popup" class="popup">
+            <div class="popup-inner">
+                <div class="parent_message"><div class="children_message">
+                <div id="close-btn" class="close-btn">✖<br><br></div>
+                <br>
+                
+                <div class="message_game_content">
+                        This is an open source minbu figure guessing game, inspired by Wordle</div>
+                
+                
+                    </div>
+                </div>
+            
+            </div>
+
+
+
+            <div id="bg-black" class="bg-black"></div>
+        </div>
+            
+        <div id="show-btn" class="btn-primary">About this game</div>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
+
+
